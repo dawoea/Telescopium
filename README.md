@@ -9,3 +9,4 @@ A open source software reverse proxy and mirror.
 * `fonts.googleapis.com` => `fonts.proxy.dawoea.org`
 * `ajax.googleapis.com` => `ajax.proxy.dawoea.org`
 * `themes.googleusercontent.com` => `google-themes.proxy.dawoea.org`
+* '' => `docker.mirrors.proxy.dawoea.org`
