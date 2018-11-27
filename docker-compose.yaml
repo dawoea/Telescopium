@@ -1,0 +1,22 @@
+version: '3.1'
+services:
+
+    nginx:
+        image: fspnetwork/nginx
+        container_name: nginx
+        ports:
+            - "80:80"
+            - "443:443"
+        volumes:
+            - /opt/www:/data/www:rw
+            - /opt/nginx/log:/var/log/nginx:rw
+            - /opt/nginx/ssl:/etc/nginx/ssl:ro
+        restart: always
+        networks: 
+            - net-fsp
+        deploy:
+            mode: global
+
+network_mode: bridge
+networks: 
+    net-fsp
