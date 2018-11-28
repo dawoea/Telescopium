@@ -8,9 +8,9 @@ services:
             - "80:80"
             - "443:443"
         volumes:
-            - /opt/www:/data/www:rw
-            - /opt/nginx/log:/var/log/nginx:rw
-            - /opt/nginx/ssl:/etc/nginx/ssl:ro
+            - ./opt/www:/data/www:rw
+            - ./opt/nginx/ssl:/data/ssl:ro
+            - ./opt/nginx/log:/var/log/nginx:rw
         restart: always
         networks: 
             - net-fsp
