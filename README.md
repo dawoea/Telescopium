@@ -75,9 +75,9 @@ https://steamapi.addones.org/api/appdetails/?appids=839500&cc=CN&l=Chinese&v=1
 
 ### Google
 
-* `fonts.gstatic.com` => `fonts.proxy.dawoea.net`
-* `fonts.googleapis.com` => `fonts.proxy.dawoea.net/css`
-* `themes.googleusercontent.com` => `google-themes.proxy.dawoea.net`
+* `fonts.gstatic.com` => `fonts.dawoea.net`
+* `fonts.googleapis.com` => `fonts.dawoea.net/css`
+* `secure.gravatar.com` => `gravatar.dawoea.net`
 
 ## Single Deploy
 
@@ -86,7 +86,9 @@ You can deploy a reverse proxy and mirror to your server using [`docker-compose.
 ## Privacy Policy
 
 - cdn.dawoea.net
-- *.proxy.dawoea.net
+- ajax.dawoea.net
+- fonts.dawoea.net
+- gravatar.dawoea.net
 - steamcdn.addones.org
 - steamapi.addones.org
 
