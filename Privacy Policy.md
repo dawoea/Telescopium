@@ -164,7 +164,7 @@ and are obligated not to disclose or use it for any other purpose.
 
 ### Content Delivery
 
-We use third-party Service Providers to serve all of our traffic under the domain cdn.dawoea.net / *.proxy.dawoea.net / steamapi.addones.org / steamcdn.addones.org.
+We use third-party Service Providers to serve all of our traffic under the domain cdn.dawoea.net / ajax.dawoea.net / fonts.dawoea.net / gravatar.dawoea.net / steamapi.addones.org / steamcdn.addones.org.
 This means all of these providers have access to your IP address and other information sent by your web browser.
 This information is used for analytics and security purposes. Neither we nor our providers track any individual user.
 
